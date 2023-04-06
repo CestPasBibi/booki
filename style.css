@@ -1,0 +1,303 @@
+/* Flexbox */
+
+
+.flex-centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-column-centre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-column-around {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flex-column-between {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Texte et couleurs */
+.decoration-none {
+  text-decoration: none;
+}
+.bordure-none {
+  border: none;
+}
+.texte-gras {
+  font-weight: bold;
+}
+.color-bleu {
+  color: #0065fc;
+}
+.color-bleu-clair {
+  color: #deebff;
+}
+.color-gris {
+  color: #f2f2f2;
+}
+.back-bleu {
+  background-color: #0065fc;
+}
+.back-bleu-clair {
+  background-color: #deebff;
+}
+.back-gris {
+  background-color: #f2f2f2;
+}
+
+/* Navigation */
+.size-nav {
+  height: auto;
+}
+.size-liens {
+  width: 100%;
+}
+.size-lien12 {
+  margin-left: 60%;
+}
+.size-lien {
+  width: 140px;
+  height: 99px;
+}
+.color-lien2 {
+  color: black;
+}
+.bordure-nav {
+  border-top: 1px solid transparent;
+}
+.bordure-nav:hover {
+  border-top: 1px solid #0065fc;
+  cursor: pointer;
+}
+.bordure-nav:hover > a {
+  color: #0065fc;
+}
+.marg-logo {
+  margin-bottom: 7px;
+}
+
+/* Header */
+.desktop-none {
+  display: none;
+}
+.bordure-search {
+  width: 400px;
+  border-radius: 10px;
+  border: 0.5px solid #f2f2f2;
+}
+.padding-search {
+  padding-left: 20px;
+}
+.recherche {
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+}
+.icon-size {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px 0 0 10px;
+}
+.button-search {
+  height: 50px;
+  width: 120px;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+.button-search:hover {
+  color: #0065fc;
+  background-color: #f2f2f2;
+}
+
+/* Filtres */
+.marg-filtre {
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.filtre {
+  display: flex;
+  align-items: center;
+}
+.marg-filtre-titre {
+  margin-right: 20px;
+}
+.filtre-texte-icons {
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.filtre-texte-icons:hover > .filtre-texte {
+  color: #0065fc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  main {
+    display:flex;
+    flex-wrap: wrap;
+ }
+    
+  #logement {
+    width: 66%;
+    }
+
+    @media (max-width: 992px) {
+      #logement {
+        width: 100%;
+        }
+
+     }
+
+ #logement article img {
+  height: 200px;
+} 
+
+
+#populaire {
+  flex-wrap: wrap;
+  width: 33%;
+
+  }
+#populaire article {
+  width: 100%;
+  
+   }
+#populaire article a {
+  display: flex;
+   }
+
+#populaire article div {
+  width: 70%;
+  
+   }
+#populaire article img {
+  width: 33%;
+   }
+
+#activites {
+   width: 100%;
+  
+    }
+
+    #activites article {
+  width:20%;
+  }
+
+
+
+section {
+  display : flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+  }
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+article {
+  width: 30%;
+  margin-right: ;
+  margin-bottom: 20px;
+  vertical-align: top;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  padding: 10px ; 
+  border-radius: 28px;
+}
+
+/* Style the article image */
+article img {
+  border-radius: 25px 25px 0 0;
+  display: flex;
+  width: 100%;
+  height: 65%;
+}
+
+article h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+article p {
+  font-size: 16px;
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+.grey-star  {
+  color: grey;
+  }
+
+ul {
+  list-style-type:none;
+   }
+
+   section h2 {
+    width: 100%;
+  }
+
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  footer div {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+  
+  footer h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-bottom: 5px;
+  }
+  
+  
