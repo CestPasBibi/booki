@@ -1,6 +1,11 @@
 /* Flexbox */
 
 
+* {margin:0; padding:0; border:0}
+
+img { object-fit: fill;
+}
+
 .flex-centre {
   display: flex;
   justify-content: center;
@@ -151,9 +156,18 @@
   color: #0065fc;
 }
 
+.fas {
+  color:#0065FC;
+  
+}
 
+.fa-solid {
+  color: #0065FC;
+}
 
-
+.fa-map-marker-alt {
+text-decoration: none;
+}
 
 
 
@@ -201,7 +215,7 @@
   
    }
 #populaire article img {
-  width: 33%;
+  width: 295px;
    }
 
 #activites {
@@ -229,7 +243,6 @@ h2 {
 
 article {
   width: 30%;
-  margin-right: ;
   margin-bottom: 20px;
   vertical-align: top;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
